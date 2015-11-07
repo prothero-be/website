@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="auto, automerk, autobrand, autologo, prothero, draak, dragon, bios, avatar, escape, prototype, concept, car, voertuig, elegant,
+    design, support, contact, dealers, concessiehouders, verdelers, partner, dynamiek, details, klasse, individueel, veiligheid, high-end, top, rendabel, duurzaam,
+    biologisch, ecologisch, slee, luxe, illuminati, vraag, brochure, informatie, gegevens">
+    <meta name="description" content="Welkom bij Prothero - Embracing the Future... De wagen en concessiehouders met een dealer locator, de modellen, en andere Prothero info.">
+    <meta name="author" content="Bjorn Simons">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Contact - Prothero</title>  <!-- elke pagina moet unieke titel hebben -->
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/huisstijl/logo/logoheader.png" alt="Logo Prothero"></a>
+        <img id="slogan" src="images/huisstijl/slogans/embracingthefuture.png" alt="Slogan Embracing the Future">
+        <nav>
+            <ul>
+                <li><a href="models.html"><h2>MODELS</h2></a>
+                    <ul>
+                        <li><a href="models/bios.html">BIOS</a></li>
+                        <li><a href="models/avatar.html">AVATAR</a></li>
+                        <li><a href="models/escape.html">ESCAPE</a></li>
+                    </ul>
+                </li>
+                <li><a href="dealers.html"><h2>DEALERS</h2></a></li>
+                <li><a href="contact.html"><h2 id="active">CONTACT</h2></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img class="resize" src="images/contact/contacthoofd.jpg" alt="Foto Prothero Support">
+        <section>
+            <h3>Onderweg even geborgen als thuis.</h3>
+            <p>Rendabel. Verantwoordelijk. Duurzaam. Bij ons, de uitvinders van de automobiel, is het engagement voor milieu en maatschappij een onderdeel van de
+                bedrijfsfilosofie dat springlevend is. Wie auto’s bouwt, draagt verantwoordelijkheid. Voor de klanten en voor het milieu. Bij Prothero is
+                duurzaamheid meer dan een goede bedoeling. Geen woorden maar daden. Iedere dag.</p>
+            <p>Vul onderstaande gegevens in en vraag om jou eigen favoriete Prothero-brochure. Schrijf je in op onze nieuwsbrief en blijf op de hoogte van al onz
+                oogverblindende activiteiten.</p>
+        </section>
+        <form action="contact.html" name="contact" method="post">
+            <fieldset id="gegevens">
+                <legend>Persoonlijke gegevens</legend>
+                <ul>
+                    <li>
+                        <label for="naam">Naam :</label>
+                        <input type="text" id="naam" name="naam1" maxlength="100" required>
+                    </li>
+                    <li>
+                        <label for="voornaam">Voornaam :</label>
+                        <input type="text" id="voornaam" name="voornaam1" maxlength="50" required>
+                    </li>
+                    <li>
+                        <label for="adres">Adres :</label>
+                        <input type="text" id="adres" name="adres1" maxlength="40" required>
+                    </li>
+                    <li>
+                        <label for="postcode">Postcode :</label>
+                        <input type="text" id="postcode" name="postcode1" placeholder="1234" size="4" pattern="^[0-9]{4}$" required>
+                    </li>
+                    <li>
+                        <label for="gemeente">Gemeente :</label>
+                        <input type="text" id="gemeente" name="gemeente1" maxlength="40" required>
+                    </li>
+                    <li>
+                        <label for="telefoon">Telefoon :</label>
+                        <input type="text" id="telefoon" name="telefoon1" maxlength="11">
+                    </li>
+                    <li>
+                        <label for="email">E-mail :</label>
+                        <input type="text" id="email" name="email1" pattern="^[a-zA-Z0-9. %+1]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" required>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset id="informatie">
+                <legend>Gewenste informatie</legend>
+                <ul>
+                    <li>
+                        <img src="images/models/bios/biosbrochure.jpg" alt="Foto Prothero Bios Brochure">
+                        <input id="brochurebios" name="brochurebios1" type="checkbox">
+                        <label for="brochurebios">Brochure BIOS.</label>
+                    </li>
+                    <li>
+                        <img src="images/models/avatar/avatarbrochure.jpg" alt="Foto Prothero Avatar Brochure">
+                        <input id="brochureavatar" name="brochureavatar1" type="checkbox">
+                        <label for="brochureavatar">Brochure AVATAR.</label>
+                    </li>
+                    <li>
+                        <img src="images/models/escape/escapebrochure.jpg" alt="Foto Prothero Escape Brochure">
+                        <input id="brochureescape" name="brochureescape1" type="checkbox">
+                        <label for="brochureescape">Brochure ESCAPE.</label>
+                    </li>
+                    <li>
+                        <img src="images/contact/nieuwsbrief.jpg" alt="Foto Prothero Nieuwsbrief">
+                        <input type="checkbox" name="informatie" value="nieuwsbrief">
+                        <label>Nieuwsbrief.</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <input type="submit" value="Verzenden">
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/prothero.be" target="blank"><img src="images/socialmedia/facebookzwart.png" alt="Facebook"></a></li>
+            <li><a href="https://twitter.com/Prothero_be" target="blank"><img src="images/socialmedia/twitterzwart.png" alt="Twitter"></a></li>
+            <li><a href="https://plus.google.com/100205714374750826749/" target="blank"><img src="images/socialmedia/googlepluszwart.png" alt="Google Plus"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCLo3vvzFrmWDKnwFQDQ8cHQ" target="blank"><img src="images/socialmedia/youtubezwart.png" alt="Youtube"></a></li>
+            <li><a href="mailto:info@prothero.be?subject=Ik%20heb%20een%20vraag&#63;" target="blank"><img src="images/socialmedia/mailzwart.png" alt="Stuur Email"></a></li>
+        </ul>
+        <img class="footerlogo" src="images/huisstijl/logo/logofooter.png" alt="Logo Prothero">
+        <p>&#169; Prothero N.V. 2015. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>

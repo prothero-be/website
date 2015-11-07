@@ -1,0 +1,334 @@
+
+/* Elke pagina zelfde vul-achtergrond en font */
+html {
+    background: #b7c7ac;
+    background-size: cover;
+    font-family: arial, helvetica, sans-serif;
+    text-align: justify;
+}
+
+/* positie van pagina*/
+body {
+    background: #ffffff;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+}
+
+/* achtergrond hoofding*/
+header {
+    background: #ffffff;
+    height: auto;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    left: auto;
+    right: auto;
+    text-align: center;
+}
+
+/* lijstopmaak ontdoen van menu en displaystijl bepalen */
+nav ul {
+    list-style-type: none;
+    display: inline;
+    border: 0;
+    padding: 0;
+}
+
+/* lijstitem menu vorm en positie geven */
+nav li {
+    display: inline-block;
+    background-color: #ffffff;
+    max-width: 194px;
+    min-width: 130px;
+    border: 0;
+    padding: 2px;
+    margin-right: 10%;
+    text-align: center;
+}
+
+nav h2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* hovereffect op lijstitem menu */
+nav li :hover {
+    background-color: #b7c7ac;
+    color: #ffffff;
+}
+
+/* lijst modellen een vaste positie */
+nav ul ul {
+    position: absolute;
+    z-index: 500;
+}
+
+/* modellen verbergen */
+nav ul ul {
+    display: none;
+}
+
+nav li li {
+    display: block;
+    max-width: 194px;
+    min-width: 130px;
+}
+/* hover display modellen */
+nav ul li:hover ul {
+    display: block;
+    max-width: 194px;
+    border: 0;
+    padding: 0;
+}
+
+#slogan {
+    float: right;
+}
+
+/* positie van foto in hoofding */
+header img {
+    display: inline;
+    border: 0;
+    padding: 0;
+}
+
+/* achtergrandkleur inhoudsgedeelte */
+main {
+    background: #ffffff;
+}
+
+/*img.hoofdfoto{ */
+.resize {
+    width:100%
+}
+
+/*sectie met tekst tussen artikels en grote foto */
+section {
+    margin: 25px 8% 73px;
+}
+
+section h3 {
+    padding: 0 50px;
+    min-width: 150px;
+}
+
+/* headers kleur geven*/
+h2, h3, h4 {
+    color: #b7c7ac;
+}
+
+/* headers tekstgrootte geven*/
+h2, h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+/* tekst kleur en grootte geven*/
+p, label {
+    color: #000000;
+    font-size: 12px;
+}
+
+/* alle verbindingen met a geen streep onder tekst enz + kleur en lettertype bepalen */
+a {
+    text-decoration: none;
+    color: #b7c7ac;
+}
+
+#active {
+    background-color: #b7c7ac;;
+    color: #ffffff;
+}
+
+/* vorm en positie van artikel op home en modellen */
+article.headarticle {
+    width: 100%;
+    max-width: 387px;
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+    border: 0;
+}
+
+/* vorm en positie van artikelfoto op home en modellen */
+article.headarticle img{
+    width: 100%;
+    height: auto;
+}
+
+/* vorm en positie van artikel op model */
+article.modelarticle {
+    width: 100%;
+    max-width: 1194px;
+    min-height: 150px;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* positie foto artikel model */
+article.modelarticle img {
+    width: 100%;
+    height: auto;
+    max-width: 386px;
+    float: left;
+    padding: 0 5px;
+}
+
+/*vorm aan paragraaf van article uit model geven*/
+article.modelarticle p {
+    font-size: 11px;
+    display: inline;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    max-width: 853px;
+    width: 100%;
+    border: none;            /*ter vervanging van YouTube's iframe frameborder="0"*/
+}
+
+/* vorm en positie artikel op dealers */
+article.dealersarticle {
+    width: 395px;
+    height: 190px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.dealersarticle h3{
+    display: none;
+}
+
+/* positie foto artikel dealers */
+article.dealersarticle img {
+    padding: 0 5px;
+}
+
+/*vorm aan paragraaf van article uit dealer geven*/
+article.dealersarticle p {
+    font-size: 11px;
+    line-height: 0.6em;
+    display: block;
+}
+
+article.dealersarticle section {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+form ul{
+    list-style-type: none;
+}
+
+form label {
+    display: block;
+}
+
+form input[type="checkbox"]+label {
+    display: inline;
+}
+
+legend {
+    display: none;
+}
+
+fieldset {
+    border: none;
+    display: inline;
+}
+
+#postcodezoek label {
+    display: inline;
+}
+
+#postcodezoek input {
+    display: inline;
+}
+
+#gegevens {
+    width: 200px;
+}
+
+#gegevens li {
+    padding-bottom: 8px;
+}
+#informatie {
+    width: auto;
+}
+
+#informatie img {
+    display: block;
+}
+
+#informatie li {
+    display: inline-block;
+    width: 130px;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+
+#postcodezoek {
+    margin-left: 55px;
+
+}
+
+#verzenden {
+    margin-bottom: 0px;
+}
+
+/* footer achtergrondkleur geven zelfde als hoofdbackground */
+footer {
+    background: #b7c7ac;
+}
+
+/* footer lijstopmaak weg van social media en positie */
+footer ul {
+    list-style-type: none;
+    display: inline;
+    padding: 0px;
+    border: 0px;
+    max-width: 250px;
+}
+
+/* positie van elk lijstitem apart positie */
+footer li {
+    display: inline;
+    width: 50px;
+}
+
+/*tekst uit footer rechts uitlijnen*/
+footer p {
+    text-align: right;
+    display: inline-block;
+    width: 552px;
+}
+
+img.footerlogo {
+    margin-left: 22%;
+    margin-right: auto;
+}
