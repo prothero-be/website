@@ -154,6 +154,7 @@ article.headarticle {
     margin: 0;
     padding: 0 5px;
     border: 0;
+    vertical-align: top;
 }
 
 /* vorm en positie van artikelfoto op home en modellen */
